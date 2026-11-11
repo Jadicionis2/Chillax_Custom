@@ -227,12 +227,19 @@
     display: none !important;
 }
 
-.title_3zSH5d {
-    background: transparent !important;
-    backdrop-filter: none !important;
-}
-
-.trailing_3zSH5d > .iconWrapper_8_fPij {
+.title_LjnVAX,
+.trailing_3zSH5d > [aria-label="DevTools"] {
+    height: var(--space-32);
     background: var(--window-colour) !important;
     backdrop-filter: blur(var(--window-blur)) !important;
+    border-radius: var(--window-border-radius);
+}
+
+.title_LjnVAX {
+    padding: 0 6px;
+}
+
+.trailing_3zSH5d > [aria-label="DevTools"]:hover {
+    background: transparent !important;
+    backdrop-filter: none !important;
 }
