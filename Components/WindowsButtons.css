@@ -93,6 +93,11 @@
     margin-right: calc(max(var(--window-margin), 4px));
 }
 
+.backForwardButtons_nS9Yqn,
+.trailing_3zSH5d > .anchor_R6ReNl {
+    display: none !important;
+}
+
 .leading_3zSH5d::before {
     margin-left: calc(max(var(--window-margin), 4px));
 }

@@ -221,3 +221,8 @@
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
+
+.backForwardButtons_nS9Yqn,
+.trailing_3zSH5d > .anchor_R6ReNl {
+    display: none !important;
+}
