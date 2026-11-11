@@ -2772,6 +2772,16 @@ html.theme-dark .container_xsx8ic {
 }
 
 /* Custom server icons */
+div[data-list-item-id="guildsnav___home"] .childWrapper_JJ-hgR {
+    background-image: url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Lilith.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+div[data-list-item-id="guildsnav___home"] .childWrapper_JJ-hgR > svg {
+    display: none;
+}
+
 html.theme-dark div[data-list-item-id="guildsnav___881453188509753384"] img {
     content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
 }
