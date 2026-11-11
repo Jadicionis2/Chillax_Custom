@@ -45,8 +45,10 @@
     /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
-    /*bg dev suggestions*/
-    --wallpaper: url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/ShadowSlave.jpeg");
+    /* Keep one Wallpaper file; the first existing supported format is used. */
+    --wallpaper: url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Wallpaper.jpeg"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Wallpaper.jpg"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Wallpaper.png");
 }
 
 
