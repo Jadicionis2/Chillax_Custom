@@ -71,7 +71,7 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
+    --user-name: "Samurai";
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
@@ -227,8 +227,12 @@
     display: none !important;
 }
 
-.trailing_3zSH5d > .iconWrapper_8_fPij,
 .title_3zSH5d {
+    background: transparent !important;
+    backdrop-filter: none !important;
+}
+
+.trailing_3zSH5d > .iconWrapper_8_fPij {
     background: var(--window-colour) !important;
     backdrop-filter: blur(var(--window-blur)) !important;
 }
