@@ -36,6 +36,11 @@
     margin-right: var(--window-margin);
 }
 
+.trailing_3zSH5d [aria-label="Inbox"],
+.trailing_3zSH5d [aria-label="DevTools"] {
+    background: var(--window-colour);
+}
+
 .recentsIcon_c99c29,
 .trailing_3zSH5d > .anchor_R6ReNl,  /* Help button */
 .trailing_3zSH5d > .clickable_c99c29,  /* Inbox button */
