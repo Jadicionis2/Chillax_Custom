@@ -24,7 +24,8 @@
 }
 
 /* Server name in title bar */
-.title__85643 {
+.title__85643,
+.title_3zSH5d {
     padding: 4px 6px;
     border-radius: 5px;
     background: var(--window-colour);
