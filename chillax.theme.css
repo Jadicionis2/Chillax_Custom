@@ -40,14 +40,6 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");*/
 
 
-.bar_3zSH5d > .title_3zSH5d > .title_LjnVAX {
-    height: var(--space-32) !important;
-    padding: 0 6px !important;
-    border-radius: var(--window-border-radius) !important;
-    background: var(--window-colour) !important;
-    backdrop-filter: blur(var(--window-blur)) !important;
-}
-
 /*Chillax Roots*/
 :root {
     /*background image*/ /*(replace the link to use)*/

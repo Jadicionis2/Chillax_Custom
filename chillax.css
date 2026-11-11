@@ -680,7 +680,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "Experimental update loaded v7, " var(--user-name) "!";
+    content: "Experimental update loaded v8, " var(--user-name) "!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
@@ -2940,4 +2940,12 @@ html.theme-light .modeSelected_TNyK-N .name_TNyK-N {
 
 .colorable_K9Xq13.disconnect_K9Xq13 {
     background-color: transparent !important;
+}
+
+.bar_3zSH5d > .title_3zSH5d > .title_LjnVAX {
+    height: var(--space-32) !important;
+    padding: 0 6px !important;
+    border-radius: var(--window-border-radius) !important;
+    background: var(--window-colour) !important;
+    backdrop-filter: blur(var(--window-blur)) !important;
 }
