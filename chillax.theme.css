@@ -97,11 +97,11 @@
     --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
     --rs-phone-color: var(--rs-online-color);
 
-    --accentcolor: 0, 168, 107;
-    --accentcolorV2: #00A86B;
-    --accentcolorPurple: #7851A9;
-    --accentcolorPurpleRgb: 120, 81, 169;
-    --accent-gradient: linear-gradient(90deg, #00A86B 0%, #7851A9 100%);
+    /* For accent color to take full effect must need to change both */
+    /* chillax colours rgb */
+    --accentcolor: 251, 84, 84;
+    /* chillax colours hex */
+    --accentcolorV2: #fb5454;
 
 
     /* settings modal root */
