@@ -686,7 +686,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "Experimental update loaded v12, " var(--user-name) "!";
+    content: "Experimental update loaded v14, " var(--user-name) "!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
@@ -2956,9 +2956,10 @@ html.theme-light .modeSelected_TNyK-N .name_TNyK-N {
     backdrop-filter: blur(var(--window-blur)) !important;
 }
 
-.container__8a031,
-.content_e9e3ed,
-.contentHeader_e9e3ed {
+.container_NdjzJd,
+.content_3Rvb29,
+.contentHeader_3Rvb29,
+.contentBody_3Rvb29 {
     backdrop-filter: blur(10px) brightness(0.8) !important;
     background-color: rgba(0, 0, 0, 0) !important;
 }
