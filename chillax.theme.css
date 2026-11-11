@@ -21,7 +21,7 @@
 */
 
 /* CHILLAX theme entry point */
-@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
@@ -228,6 +228,7 @@
 }
 
 .title_LjnVAX,
+.trailing_3zSH5d > .iconWrapper_8_fPij,
 .trailing_3zSH5d > [aria-label="DevTools"] {
     height: var(--space-32);
     background: var(--window-colour) !important;
@@ -239,6 +240,7 @@
     padding: 0 6px;
 }
 
+.trailing_3zSH5d > .iconWrapper_8_fPij:hover,
 .trailing_3zSH5d > [aria-label="DevTools"]:hover {
     background: transparent !important;
     backdrop-filter: none !important;
