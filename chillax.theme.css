@@ -227,21 +227,29 @@
     display: none !important;
 }
 
-.title_LjnVAX,
-.trailing_3zSH5d > .iconWrapper_8_fPij,
-.trailing_3zSH5d > [aria-label="DevTools"] {
+.title_3zSH5d > .title_LjnVAX,
+.trailing_3zSH5d [aria-label="Inbox"],
+.trailing_3zSH5d [aria-label="DevTools"] {
     height: var(--space-32);
     background: var(--window-colour) !important;
     backdrop-filter: blur(var(--window-blur)) !important;
     border-radius: var(--window-border-radius);
 }
 
-.title_LjnVAX {
+.title_3zSH5d > .title_LjnVAX {
     padding: 0 6px;
 }
 
-.trailing_3zSH5d > .iconWrapper_8_fPij:hover,
-.trailing_3zSH5d > [aria-label="DevTools"]:hover {
+.trailing_3zSH5d [aria-label="Inbox"],
+.trailing_3zSH5d [aria-label="DevTools"] {
+    width: var(--space-32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trailing_3zSH5d [aria-label="Inbox"]:hover,
+.trailing_3zSH5d [aria-label="DevTools"]:hover {
     background: transparent !important;
     backdrop-filter: none !important;
 }
