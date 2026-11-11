@@ -135,7 +135,7 @@ html.theme-light .wrapper_Z0MHyc {
     margin-right: 5px;
 }
 
-.base_b88801 .text_U9Tvvz {
+.base_U9Tvvz .text_U9Tvvz {
     display: flex;
     align-items: center;
 }
@@ -143,7 +143,7 @@ html.theme-light .wrapper_Z0MHyc {
 .typing_U9Tvvz {
     font-size: 0;
     /* Stop the chat messages from shifting when typing starts/stops */
-    margin-top: -24px;
+    margin-top: 0;
 }
 
 .typing_U9Tvvz strong {
@@ -288,12 +288,7 @@ html.theme-light .placeholder_SHcSVi::before {
     background: transparent !important;
 }
 
-.form_z_gUBg:has(.base_b88801) .form_z_gUBg {
-    /* Add margin to the top when typing/slowmode indicator is active */
-    margin-top: var(--custom-chat-input-margin-bottom);
-}
-
-.base_b88801 {
+.base_U9Tvvz {
     /* Indicator order */
     position: static;
     order: 1;
@@ -309,7 +304,7 @@ html.theme-light .container_dvN-MP {
 }
 
 /* Remove slowmode message */
-.cooldownWrapper_b21699 {
+.typing_U9Tvvz .cooldownWrapper_bbCgC2 {
     font-size: 0px;
 }
 
