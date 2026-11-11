@@ -36,12 +36,9 @@
     margin-right: var(--window-margin);
 }
 
-.trailing_3zSH5d [aria-label="Inbox"],
-.trailing_3zSH5d [aria-label="DevTools"] {
-    background: var(--window-colour);
-}
-
 .recentsIcon_c99c29,
+.trailing_3zSH5d [aria-label="Inbox"],
+.trailing_3zSH5d [aria-label="DevTools"],
 .trailing_3zSH5d > .anchor_R6ReNl,  /* Help button */
 .trailing_3zSH5d > .clickable_c99c29,  /* Inbox button */
 .trailing_3zSH5d > .clickable_ybUK7Z,  /* Snapshot button */
@@ -53,7 +50,17 @@
     border-radius: var(--window-border-radius);
 }
 
+.trailing_3zSH5d [aria-label="Inbox"],
+.trailing_3zSH5d [aria-label="DevTools"] {
+    width: var(--space-32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .recentsIcon_c99c29:hover,
+.trailing_3zSH5d [aria-label="Inbox"]:hover,
+.trailing_3zSH5d [aria-label="DevTools"]:hover,
 .trailing_3zSH5d > .anchor_R6ReNl:hover,  /* Help button */
 .trailing_3zSH5d > .clickable_c99c29:hover,  /* Inbox button */
 .trailing_3zSH5d > .clickable_ybUK7Z:hover,  /* Snapshot button */
