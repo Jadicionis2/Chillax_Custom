@@ -38,7 +38,7 @@
 }
 
 .recentsIcon_c99c29,
-.trailing_3zSH5d > *,
+.trailing_3zSH5d > .iconWrapper_8_fPij,
 .trailing_3zSH5d > .anchor_R6ReNl,  /* Help button */
 .trailing_3zSH5d > .clickable_c99c29,  /* Inbox button */
 .trailing_3zSH5d > .clickable_ybUK7Z,  /* Snapshot button */
@@ -51,7 +51,7 @@
 }
 
 .recentsIcon_c99c29:hover,
-.trailing_3zSH5d > *:hover,
+.trailing_3zSH5d > .iconWrapper_8_fPij:hover,
 .trailing_3zSH5d > .anchor_R6ReNl:hover,  /* Help button */
 .trailing_3zSH5d > .clickable_c99c29:hover,  /* Inbox button */
 .trailing_3zSH5d > .clickable_ybUK7Z:hover,  /* Snapshot button */

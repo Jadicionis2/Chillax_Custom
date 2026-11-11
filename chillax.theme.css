@@ -227,7 +227,7 @@
     display: none !important;
 }
 
-.trailing_3zSH5d > *,
+.trailing_3zSH5d > .iconWrapper_8_fPij,
 .title_3zSH5d {
     background: var(--window-colour) !important;
     backdrop-filter: blur(var(--window-blur)) !important;
