@@ -31,6 +31,14 @@
     backdrop-filter: blur(var(--window-blur)) !important;
 }
 
+.bar_3zSH5d > .title_3zSH5d > .title_LjnVAX {
+    height: var(--space-32);
+    padding: 0 6px;
+    border-radius: var(--window-border-radius);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+}
+
 /* Title bar buttons */
 .trailing_3zSH5d {
     margin-right: var(--window-margin);
