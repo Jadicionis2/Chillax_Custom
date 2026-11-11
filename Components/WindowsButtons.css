@@ -31,11 +31,11 @@
     backdrop-filter: blur(var(--window-blur)) !important;
 }
 
-.title_3zSH5d > .title_LjnVAX {
-    height: var(--space-32);
-    padding: 0 6px;
-    border-radius: var(--window-border-radius);
-    background: var(--window-colour);
+.bar_3zSH5d > .title_3zSH5d > .title_LjnVAX {
+    height: var(--space-32) !important;
+    padding: 0 6px !important;
+    border-radius: var(--window-border-radius) !important;
+    background: var(--window-colour) !important;
     backdrop-filter: blur(var(--window-blur)) !important;
 }
 

@@ -227,7 +227,7 @@
     display: none !important;
 }
 
-.title_3zSH5d > .title_LjnVAX,
+.bar_3zSH5d > .title_3zSH5d > .title_LjnVAX,
 .trailing_3zSH5d [aria-label="Inbox"],
 .trailing_3zSH5d [aria-label="DevTools"] {
     height: var(--space-32);
@@ -236,8 +236,8 @@
     border-radius: var(--window-border-radius);
 }
 
-.title_3zSH5d > .title_LjnVAX {
-    padding: 0 6px;
+.bar_3zSH5d > .title_3zSH5d > .title_LjnVAX {
+    padding: 0 6px !important;
 }
 
 .trailing_3zSH5d [aria-label="Inbox"],
