@@ -686,7 +686,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "Experimental update loaded v14, " var(--user-name) "!";
+    content: "Experimental update loaded v15, " var(--user-name) "!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
@@ -2956,10 +2956,17 @@ html.theme-light .modeSelected_TNyK-N .name_TNyK-N {
     backdrop-filter: blur(var(--window-blur)) !important;
 }
 
-.container_NdjzJd,
-.content_3Rvb29,
-.contentHeader_3Rvb29,
-.contentBody_3Rvb29 {
+[data-mana-component="layer-modal"].modal__F9ieB .modalContent__F9ieB {
     backdrop-filter: blur(10px) brightness(0.8) !important;
+    -webkit-backdrop-filter: blur(10px) brightness(0.8) !important;
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+[data-mana-component="layer-modal"].modal__F9ieB .modalContentInner__F9ieB,
+[data-mana-component="layer-modal"].modal__F9ieB .container_NdjzJd,
+[data-mana-component="layer-modal"].modal__F9ieB .sidebar_cR4ic2,
+[data-mana-component="layer-modal"].modal__F9ieB .content_3Rvb29,
+[data-mana-component="layer-modal"].modal__F9ieB .contentHeader_3Rvb29,
+[data-mana-component="layer-modal"].modal__F9ieB .contentBody_3Rvb29 {
+    background-color: transparent !important;
 }
