@@ -257,11 +257,11 @@ html.theme-light .lookFilled_9OQtot:hover {
 
 /*spotify gradient thing*/
 html.theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
-    background: linear-gradient(135deg, #2b2b2b, var(--accentcolorV2));
+    background: var(--accent-gradient);
 }
 
 html.theme-light .timeline-UWmgAx:hover .barFill-Dhkah7 {
-    background: linear-gradient(135deg, #e2e2e2, var(--accentcolorV2));
+    background: var(--accent-gradient);
 }
 
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
@@ -323,12 +323,16 @@ html.theme-light .elevationBorderHigh_LyjY5_ {
 
 .searchOption-351dTI .filter-5YbOzJ {
     color: var(--accentcolorV2) !important;
+    background-image: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*connected vc buttons background*/
 .wrapper_9bvEB0,
 .centerButton_K9Xq13.colorable_K9Xq13 {
-    background-color: var(--accentcolorV2) !important;
+    background: var(--accent-gradient) !important;
     border-radius: 50px;
 }
 
@@ -426,7 +430,7 @@ html.theme-light .elevationBorderHigh_LyjY5_ {
     right: 22px;
     padding: 8px !important;
     height: auto;
-    background-color: var(--accentcolorV2);
+    background: var(--accent-gradient);
     box-shadow: var(--elevation-high);
     border-radius: 100px;
     display: flex;
@@ -686,7 +690,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "Experimental update loaded v15, " var(--user-name) "!";
+    content: "Experimental branch loaded v18, " var(--user-name) "!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
@@ -766,43 +770,27 @@ span:not(.spinner-item) {
 
 /*custom mentioned colour*/
 html.theme-dark .mentioned_SY_P2T:before {
-    background: linear-gradient(135deg, #3b3b3b, var(--accentcolorV2)) !important;
+    background: var(--accent-gradient) !important;
 }
 
 html.theme-light .mentioned_SY_P2T:before {
-    background: linear-gradient(135deg, #cfcfcf, var(--accentcolorV2)) !important;
+    background: var(--accent-gradient) !important;
 }
 
 html.theme-dark .mentioned_SY_P2T {
-    background: linear-gradient(
-            60deg,
-            rgba(41, 41, 41, 0.3),
-            rgba(var(--accentcolor), 0.9)
-    ) !important;
+    background: var(--accent-gradient) !important;
 }
 
 html.theme-light .mentioned_SY_P2T {
-    background: linear-gradient(
-            60deg,
-            rgba(228, 228, 228, 0.3),
-            rgba(var(--accentcolor), 0.9)
-    ) !important;
+    background: var(--accent-gradient) !important;
 }
 
 html.theme-dark .mentioned_SY_P2T:hover {
-    background: linear-gradient(
-            60deg,
-            rgba(32, 32, 32, 0.5),
-            rgba(var(--accentcolor))
-    ) !important;
+    background: var(--accent-gradient) !important;
 }
 
 html.theme-light .mentioned_SY_P2T:hover {
-    background: linear-gradient(
-            60deg,
-            rgba(228, 228, 228, 0.5),
-            rgba(var(--accentcolor))
-    ) !important;
+    background: var(--accent-gradient) !important;
 }
 
 /*user popout animation*/
@@ -851,7 +839,7 @@ html.theme-light .mentioned_SY_P2T:hover {
 }
 
 .clamped-2ZePhX::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #cacaca, var(--accentcolorV2)) !important;
+    background: var(--accent-gradient) !important;
     border-radius: 30px;
 }
 
@@ -1665,7 +1653,7 @@ html.theme-light .itemCard_-7KzVR.wrapper_o3hXTo:hover {
 /*custom reactions*/
 .reactionMe_f8896c {
     border-radius: 50px !important;
-    background: var(--accentcolorV2) !important;
+    background: var(--accent-gradient) !important;
     border: 1px solid transparent !important;
 }
 
@@ -2235,16 +2223,20 @@ button {
 
 #Chillax-card {
     border: 2px solid var(--accentcolorV2);
-    box-shadow: 0 0 5px var(--accentcolorV2);
+    box-shadow: 0 0 5px var(--accentcolorV2), 0 0 10px var(--accentcolorPurple);
 }
 
 #Chillax-card .bd-addon-header {
     border-bottom: 2px solid var(--accentcolorV2);
-    box-shadow: 0 0 5px var(--accentcolorV2);
+    box-shadow: 0 0 5px var(--accentcolorV2), 0 0 10px var(--accentcolorPurple);
 }
 
 #Chillax-card > *:not(#a#B) {
-    background: rgba(var(--accentcolor), .2) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(var(--accentcolor), .2),
+        rgba(var(--accentcolorPurpleRgb), .2)
+    ) !important;
 }
 
 #Chillax-card .bd-description {
@@ -2709,7 +2701,7 @@ html.theme-dark .container__55c99 {
 /* summaries container */
 html.theme-dark .topicsPillContainer_j9Vvzj {
     border-radius: 5px !important;
-    background-color: var(--accentcolorV2);
+    background: var(--accent-gradient);
     z-index: 5;
 }
 
@@ -2954,19 +2946,4 @@ html.theme-light .modeSelected_TNyK-N .name_TNyK-N {
     border-radius: var(--window-border-radius) !important;
     background: var(--window-colour) !important;
     backdrop-filter: blur(var(--window-blur)) !important;
-}
-
-[data-mana-component="layer-modal"].modal__F9ieB .modalContent__F9ieB {
-    backdrop-filter: blur(10px) brightness(0.8) !important;
-    -webkit-backdrop-filter: blur(10px) brightness(0.8) !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-}
-
-[data-mana-component="layer-modal"].modal__F9ieB .modalContentInner__F9ieB,
-[data-mana-component="layer-modal"].modal__F9ieB .container_NdjzJd,
-[data-mana-component="layer-modal"].modal__F9ieB .sidebar_cR4ic2,
-[data-mana-component="layer-modal"].modal__F9ieB .content_3Rvb29,
-[data-mana-component="layer-modal"].modal__F9ieB .contentHeader_3Rvb29,
-[data-mana-component="layer-modal"].modal__F9ieB .contentBody_3Rvb29 {
-    background-color: transparent !important;
 }

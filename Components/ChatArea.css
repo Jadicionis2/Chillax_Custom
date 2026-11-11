@@ -70,7 +70,11 @@
 
 .unreadPill_4TfzT5 {
     background-color: var(--background-shading);
-    color: #fb5454;
+    color: var(--accentcolorV2);
+    background-image: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 12px;
     letter-spacing: 20px;
     right: 50%;
@@ -79,16 +83,9 @@
 }
 
 .isUnread_4TfzT5 {
-    --divider-color: rgb(237, 0, 255);
+    --divider-color: var(--accentcolorV2);
     border: none;
-    background: linear-gradient(
-            90deg,
-            rgba(237, 0, 255, 1) 0%,
-            #fb5454 25%,
-            rgba(0, 0, 0, 0) 50%,
-            #fb5454 75%,
-            rgba(254, 0, 255, 1) 100%
-    );
+    background: var(--accent-gradient);
     height: 1px;
 }
 
@@ -328,8 +325,8 @@ html.theme-light .container_dvN-MP {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,
-            rgba(var(--accentcolor), 0.3),
-            rgba(var(--accentcolor), 0.2),
+            rgba(var(--accentcolor), 0.3) 0%,
+            rgba(var(--accentcolorPurpleRgb), 0.2) 60%,
             transparent
     );
 }
