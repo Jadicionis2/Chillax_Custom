@@ -8,18 +8,18 @@
 
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/ChillaxTag.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Addons/SettingsModalEdited.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Addons/AccountDetailsGrid.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/ChillaxTag.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Addons/SettingsModalEdited.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Addons/AccountDetailsGrid.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 
 /****CHILLAX COMPONENTS****/
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Components/WindowsButtons.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Components/UserArea.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Components/Embeds.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Components/ChatArea.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Components/ChannelHeader.css");
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Components/EmojiPicker.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Components/WindowsButtons.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Components/UserArea.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Components/Embeds.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Components/ChatArea.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Components/ChannelHeader.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Components/EmojiPicker.css");
 
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
@@ -36,6 +36,12 @@
 /* Server list */
 .wrapper_5dqHTG {
     background-color: transparent !important;
+}
+
+/* Hide Add Server and Discover items to free room in the server list */
+.listItem_rwEpIL:has([data-list-item-id="guildsnav___create-join-button"]),
+.listItem_rwEpIL:has([data-list-item-id="guildsnav___guild-discover-button"]) {
+    display: none !important;
 }
 
 /* Channel list */
@@ -678,9 +684,9 @@ html.theme-light .monaco-editor .margin {
     color: white !important;
 }
 
-/*welcome text*/
+/*welcome text - Experimental branch v22*/
 body:before {
-    content: "Experimental update loaded v9, " var(--user-name) "!";
+    content: "Precisely because I'm a 'fake' game character, my love is more 'real' than anything else. " var(--user-name) ".";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
@@ -2774,10 +2780,10 @@ html.theme-dark .container_xsx8ic {
 /* Custom server icons */
 div[data-list-item-id="guildsnav___home"] .childWrapper_JJ-hgR {
     background-image:
-        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Home.gif"),
-        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Home.jpeg"),
-        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Home.jpg"),
-        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Home.png");
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Home.gif"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Home.jpeg"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Home.jpg"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Home.png");
     background-position: center;
     background-size: cover;
 }

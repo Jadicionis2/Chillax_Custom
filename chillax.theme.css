@@ -21,7 +21,7 @@
 */
 
 /* CHILLAX theme entry point */
-@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/chillax.css");
+@import url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
@@ -46,9 +46,9 @@
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
     /* Keep one Wallpaper file; the first existing supported format is used. */
-    --wallpaper: url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Wallpaper.jpeg"),
-        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Wallpaper.jpg"),
-        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Experimental/Wallpapers/Wallpaper.png");
+    --wallpaper: url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Wallpaper.jpeg"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Wallpaper.jpg"),
+        url("https://raw.githubusercontent.com/Jadicionis2/Chillax_Custom/Edited/Wallpapers/Wallpaper.png");
 }
 
 
@@ -99,9 +99,9 @@
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 251, 84, 84;
+    --accentcolor: 120, 81, 169;
     /* chillax colours hex */
-    --accentcolorV2: #fb5454;
+    --accentcolorV2: #7851A9;
 
 
     /* settings modal root */

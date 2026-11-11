@@ -56,18 +56,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    backdrop-filter: none !important;
 }
 
 .recentsIcon_c99c29:hover,
-.trailing_3zSH5d [aria-label="Inbox"]:hover,
-.trailing_3zSH5d [aria-label="DevTools"]:hover,
 .trailing_3zSH5d > .anchor_R6ReNl:hover,  /* Help button */
 .trailing_3zSH5d > .clickable_c99c29:hover,  /* Inbox button */
-.trailing_3zSH5d > .clickable_ybUK7Z:hover,  /* Snapshot button */
-.winButtons_3zSH5d > div:hover {
+.trailing_3zSH5d > .clickable_ybUK7Z:hover {  /* Snapshot button */
     background: transparent;
     transition: 0.1s;
     backdrop-filter: none;
+}
+
+.trailing_3zSH5d [aria-label="Inbox"]:hover,
+.trailing_3zSH5d [aria-label="DevTools"]:hover {
+    background: var(--window-colour) !important;
+    backdrop-filter: none !important;
+}
+
+.winButtons_3zSH5d > div:hover {
+    background: var(--window-colour) !important;
+    transition: 0.1s;
+    backdrop-filter: blur(var(--window-blur));
 }
 
 /* Make min/max/close connected */
