@@ -680,7 +680,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "Experimental update loaded v6, " var(--user-name) "!";
+    content: "Experimental update loaded v7, " var(--user-name) "!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
